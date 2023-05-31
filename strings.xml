@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Servicios De Comida Lince</string>
+    <item name="layoutA" type="id" />
+    <item name="layoutA1" type="id" />
+    <item name="layoutA2" type="id" />
+    <item name="layoutA3" type="id" />
+    <item name="layoutA4" type="id" />
+
+    <item name="layoutB" type="id" />
+    <item name="layoutB1" type="id" />
+    <item name="layoutB2" type="id" />
+    <item name="layoutB3" type="id" />
+    <item name="layoutB4" type="id" />
+
+    <item name="layoutC" type="id" />
+    <item name="layoutC1" type="id" />
+    <item name="layoutC2" type="id" />
+    <item name="layoutC3" type="id" />
+    <item name="layoutC4" type="id" />
+
+    <item name="layoutD" type="id" />
+    <item name="layoutD1" type="id" />
+    <item name="layoutD2" type="id" />
+    <item name="layoutD3" type="id" />
+    <item name="layoutD4" type="id" />
+</resources>

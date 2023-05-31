@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3C975"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".ActividadCatalogo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3C975"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E67D00"
+            android:textColor="#AE2017"
+            android:text="Anterior"
+            android:id="@+id/buttonAnterior"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:text="Catálogo"
+            android:textColor="#AE2017"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:backgroundTint="#E67D00"
+            android:textColor="#AE2017"
+            android:text="Home"
+            android:id="@+id/buttonHome"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#E67D00"
+            android:textColor="#AE2017"
+            android:text="Siguiente"
+            android:id="@+id/buttonSiguiente"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutDisplayBase"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9C27B0"
+        android:weightSum="16"
+        android:orientation="vertical" />
+
+
+</LinearLayout>
